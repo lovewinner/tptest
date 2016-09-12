@@ -9,9 +9,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>JSP  Page</title>
     </head>
     <body>
-        <h1>Hello    lianx World!</h1>
+        <h1>Hello  h  lianx World!</h1>
     </body>
 </html>
