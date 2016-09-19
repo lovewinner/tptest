@@ -40,7 +40,7 @@ public class Find {
    n.setNianling(22);
    n.setDianhua("13754");
    n.setYouxiang("31325");
-   
+    
    session.save(n);
    tx.commit();
    session.close();
