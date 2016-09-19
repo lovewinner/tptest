@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="dvdrental.Cjhlei" table ="xuesheng">
+        <id name="xuehao" column="xuehao" type="string">
+            <generator class="uuid"/>
+        </id>
+    
+        <property  name="xingming" type="string" not-null="true">
+        </property>
+    
+        <property  name="nianling" type="int" not-null="true" >
+        </property>
+    
+        <property  name="dianhua" type="string" not-null="true">
+        </property>
+    
+        <property  name="youxiang" type="string" not-null="true">
+        </property>
+    </class>
+</hibernate-mapping>
+
