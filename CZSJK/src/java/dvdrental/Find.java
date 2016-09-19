@@ -22,7 +22,7 @@ public class Find {
    
    public static void main(String[] args)       
    {
-  //创建session工厂
+  //创建session工厂  
        //1)创建Configuration对象
         Configuration cfg = new Configuration().configure();
        //2)创建SessionFactory对象
