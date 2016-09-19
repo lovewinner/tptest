@@ -37,7 +37,7 @@ public class Find {
    
   Cjhlei n= (Cjhlei)session.get(Cjhlei.class,"bbc36063574036230157403626f80000");
     session.delete(n);
- 
+
    tx.commit();
    session.close();
    sf.close();
