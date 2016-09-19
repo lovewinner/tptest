@@ -34,14 +34,10 @@ public class Find {
           
    Session session = sf.openSession();  
    Transaction tx= session.beginTransaction();
-   Cjhlei n=new Cjhlei();
-   n.setXingming("张超");
-   n.setXuehao("5");
-   n.setNianling(22);
-   n.setDianhua("13754");
-   n.setYouxiang("31325");
-    
-   session.save(n);
+   
+  Cjhlei n= (Cjhlei)session.get(Cjhlei.class,"bbc36063574036230157403626f80000");
+    session.delete(n);
+ 
    tx.commit();
    session.close();
    sf.close();
